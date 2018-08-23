@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:padding="23dp">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="13dp"
+        app:cardBackgroundColor="#F3E5F5"
+        android:layout_margin="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:id="@+id/id_movie_row_imageView"
+                android:background="@color/cardview_dark_background"
+                android:layout_marginLeft="9dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/id_movie_row_textView1"
+                android:text="Text 1"
+                android:layout_toRightOf="@id/id_movie_row_imageView"
+                android:textStyle="bold"
+                android:textSize="19dp"
+                android:layout_marginLeft="11dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/id_movie_row_textView2"
+                android:text="Text 2"
+                android:layout_toRightOf="@id/id_movie_row_imageView"
+                android:layout_below="@id/id_movie_row_textView1"
+                android:textSize="15dp"
+                android:layout_marginLeft="11dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/id_movie_row_textView3"
+                android:text="Text 3"
+                android:layout_toRightOf="@id/id_movie_row_imageView"
+                android:layout_below="@id/id_movie_row_textView2"
+                android:textSize="15dp"
+                android:layout_marginLeft="11dp"/>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

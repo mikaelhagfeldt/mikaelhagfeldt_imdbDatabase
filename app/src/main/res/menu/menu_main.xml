@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.example.mik.myapplication.MainActivity">
+    <item
+        android:id="@+id/id_menu_main_searchField"
+        android:orderInCategory="100"
+        android:title="Search"
+        app:showAsAction="always"/>
+</menu>

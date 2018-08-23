@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_MovieDetail"
+    android:padding="13dp">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardBackgroundColor="#F3E5F5"
+        app:cardCornerRadius="13dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="7dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_height="130dp"
+                android:id="@+id/id_activity_movie_detail_imageView"
+                android:background="@color/cardview_dark_background"
+                android:paddingBottom="13dp"
+                android:layout_marginBottom="13dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/id_activity_movie_detail_textView1"
+                android:text="Text 1"
+                android:layout_below="@id/id_activity_movie_detail_imageView"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/id_activity_movie_detail_textView2"
+                android:text="Text 2"
+                android:layout_below="@id/id_activity_movie_detail_textView1"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/id_activity_movie_detail_textView3"
+                android:text="Text 3"
+                android:layout_below="@id/id_activity_movie_detail_textView2"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/id_activity_movie_detail_textView4"
+                android:text="Text 4"
+                android:layout_below="@id/id_activity_movie_detail_textView3"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/id_activity_movie_detail_textView5"
+                android:text="Text 5"
+                android:layout_below="@id/id_activity_movie_detail_textView4"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/id_activity_movie_detail_textView6"
+                android:text="Text 6"
+                android:layout_below="@id/id_activity_movie_detail_textView5"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/id_activity_movie_detail_textView7"
+                android:text="Text 7"
+                android:layout_below="@id/id_activity_movie_detail_textView6"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/id_activity_movie_detail_textView8"
+                android:text="Text 8"
+                android:layout_below="@id/id_activity_movie_detail_textView7"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/id_activity_movie_detail_textView9"
+                android:text="Text 9"
+                android:layout_below="@id/id_activity_movie_detail_textView8"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/id_activity_movie_detail_textView10"
+                android:text="Text 10"
+                android:layout_below="@id/id_activity_movie_detail_textView9"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/id_activity_movie_detail_textView11"
+                android:text="Text 11"
+                android:layout_below="@id/id_activity_movie_detail_textView10"/>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    </android.support.constraint.ConstraintLayout>
